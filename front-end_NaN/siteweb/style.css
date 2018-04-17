@@ -1212,7 +1212,7 @@ h3.news-title {
 	15. Deafault Footer Css here
 --------------------------*/
 .footer{
-  background: url(images/bg/footer.jpg)no-repeat scroll center center;
+  background: url(images/vue.jpg)no-repeat scroll center center;
   background-size: cover;
 }
 .footer-bg-opacity {
@@ -2655,4 +2655,11 @@ h3.news-title {
 .plus:hover{
     background-color: white;
     color: deepskyblue;
+}
+.liens{
+    color: rgb(136,138,244);
+}
+.liens:hover{
+    color: rgb(200,164,243);
+    cursor: pointer;
 }
