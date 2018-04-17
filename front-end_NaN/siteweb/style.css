@@ -943,7 +943,7 @@ p.welcome-desc {
   margin-top: 51px;
 }
 .staff-tesimonial {
-  background: rgba(0, 0, 0, 0) url("images/bg/testimonial.jpg") no-repeat fixed center center / cover ;
+  background: rgba(0, 0, 0, 0) url('images/img_fond2.jpg') no-repeat fixed center center / cover ;
   padding: 128px 0 138px;
   position: relative;
 }
@@ -1330,9 +1330,14 @@ h3.news-title {
    16.1 Home two Header Css here
 ----------------------------*/
 .header-section.static2{
-  background: url(images/bg/h2-bg.jpg)no-repeat scroll center center;
+  background: url(images/img_1.jpg) no-repeat scroll center center;
   background-size: cover;
 }
+.header-section{
+  background: url(images/img_1.jpg) no-repeat scroll center center;
+  background-size: cover;
+}
+
 .menu nav ul li.logo {
   margin: 0 0 0 85px;
   padding-bottom: 0 !important;
@@ -2644,4 +2649,10 @@ h3.news-title {
 .slider-list.owl-theme .owl-controls {
   margin-top: 0;
 }
-
+.logo{
+    padding: 10px;
+}
+.plus:hover{
+    background-color: white;
+    color: deepskyblue;
+}
