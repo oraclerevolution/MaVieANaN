@@ -634,6 +634,9 @@ p.welcome-desc {
   left: 0;
   width: 45px;
 }
+.our-room{
+    margin-bottom: 25px;
+}
 .section-title > p {
   color: #fff;
   line-height: 18px;
@@ -1188,7 +1191,7 @@ h3.news-title {
 .newsletter-form input::-webkit-input-placeholder{ color:#fff; }
 .newsletter-form input::-webkit-input-placeholder { color:#fff; }
 .newsletter-form input::-moz-placeholder{ color:#fff; } /* firefox 19+ */
-.newsletter-form input:-ms-input-placeholder color:#fff; } /* ie */
+.newsletter-form input:-ms-input-placeholder{ color:#fff; } /* ie */
 .newsletter-form input:-moz-placeholder{ color:#fff; }
 .newsletter-form button {
   background: #fff none repeat scroll 0 0;
@@ -2662,4 +2665,19 @@ h3.news-title {
 .liens:hover{
     color: rgb(200,164,243);
     cursor: pointer;
+}
+.infos{
+    height: auto;
+    color: white;   
+}
+.modal-dialog{
+  position: relative;
+  top: 150px;
+}
+.btn-liens{
+  background-color: rgb(136,138,244);
+}
+.btn-liens:hover{
+  background-color: rgb(200,164,243);
+  cursor: pointer;
 }
