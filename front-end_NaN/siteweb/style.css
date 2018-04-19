@@ -2706,3 +2706,23 @@ h3.news-title {
 .renvoi p{
   color: white;
 }
+.photo{
+    border: 3px solid black;
+    //background: url('images/assia.jpg') no-repeat;
+    height: 212px;
+    background-size: 100%;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.descr{
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 5px
+}
+.title{
+    color: black !important;
+}
+.our-skill{
+    margin-top: 15px;
+}
