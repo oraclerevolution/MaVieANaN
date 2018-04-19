@@ -2696,3 +2696,13 @@ h3.news-title {
 .msg_faq{
   padding: 8px;
 }
+.renvoi{
+  background:url('images/fond.PNG');
+  color: white;
+  border-left: 2px solid rgb(200,164,243);
+  padding-left: 8px;
+
+}
+.renvoi p{
+  color: white;
+}
